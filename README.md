@@ -27,7 +27,7 @@ Developed as part of the **AI & Blockchain Research Lab** at *The Hebrew Univers
 
 ---
 
-## 🧭 Architecture
+# 🧭 Architecture
 +-------------------+
 | Scheduler |
 | (Timer / Cron) |
@@ -52,11 +52,11 @@ v
 
 | Category | Tools |
 |-----------|-------|
-| Language | JavaScript |
-| Blockchain | Ethereum Sepolia Testnet |
-| Infrastructure | Infura RPC |
-| Automation | Docker / asyncio |
-| Security | `.env` key management |
+| Language |  JavaScript |
+| Blockchain |  Ethereum Sepolia Testnet |
+| Infrastructure |  Infura RPC |
+| Automation |  Docker / asyncio |
+| Security |  `.env` key management |
 
 ---
 
@@ -72,27 +72,27 @@ npm install
 # Create environment file
 cp .env.example .env
 
-## 🧠 Usage
+# 🧠 Usage
 npm miner.js
 
-## ⚙️ Environment Variables
+# ⚙️ Environment Variables
 INFURA_API_KEY=your_infura_key
 PRIVATE_KEY=your_private_wallet_key
 WALLET_ADDRESS=0xYourWallet
 MINING_INTERVAL=60   # seconds between mining cycles
 
-## 🐳 Docker Support
+# 🐳 Docker Support
 docker build -t miningbot .
 docker run -d --env-file .env miningbot
 
 
-## 📊 Example Output
+# 📊 Example Output
 [INFO] Mining round started...
 [INFO] Wallet 0x1a3f... received 0.1 SepoliaETH
 [INFO] Balances reallocated successfully
 [INFO] Sleeping for 60 seconds...
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 Nir Ellor
 Full-Stack Web3 & AI Developer
 
