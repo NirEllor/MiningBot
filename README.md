@@ -30,8 +30,11 @@ Developed as part of the **AI & Blockchain Research Lab** at *The Hebrew Univers
 ## 🧭 Architecture
 +-------------------+
 | Scheduler |
+
 | (Timer / Cron) |
+
 +--------+----------+
+
 |
 v
 +-------------------+
