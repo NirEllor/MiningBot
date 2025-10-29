@@ -28,23 +28,24 @@ Developed as part of the **AI & Blockchain Research Lab** at *The Hebrew Univers
 ---
 
 ## 🧭 Architecture
+<pre>
++-------------------+     
+|   Scheduler       |     
+|  (Timer / Cron)   |     
++--------+----------+     
+         |                
+         v                
++-------------------+     
+|   Mining Manager  |     
+| (Parallel Faucet) |     
++--------+----------+     
+         |                
+         v                
++-------------------+     
+|  Wallet Handler   |     
+| (Keys / Balances) |     
 +-------------------+
-| Scheduler |
-| (Timer / Cron) |
-+--------+----------+
-|
-v
-+-------------------+
-| Mining Manager |
-| (Parallel Faucet) |
-+--------+----------+
-|
-v
-+-------------------+
-| Wallet Handler |
-| (Keys / Balances) |
-+-------------------+
-
+</pre>
 
 ---
 
