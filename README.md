@@ -50,13 +50,13 @@ v
 
 ## 🧩 Tech Stack
 
-| Category |   Tools |
+| Category | Tools |
 |-----------|-------|
-| Language |  JavaScript |
-| Blockchain |  Ethereum Sepolia Testnet |
-| Infrastructure |  Infura RPC |
-| Automation |  Docker / asyncio |
-| Security |  `.env` key management |
+| Language | JavaScript |
+| Blockchain | Ethereum Sepolia Testnet |
+| Infrastructure | Infura RPC |
+| Automation | Docker / asyncio |
+| Security | `.env` key management |
 
 ---
 
